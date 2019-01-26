@@ -14,6 +14,27 @@
 		0B24233021FCC4E500432B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B24232E21FCC4E500432B88 /* LaunchScreen.storyboard */; };
 		0B24233B21FCC4E500432B88 /* RAFlightTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24233A21FCC4E500432B88 /* RAFlightTrackerTests.swift */; };
 		0B24234621FCC4E500432B88 /* RAFlightTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24234521FCC4E500432B88 /* RAFlightTrackerUITests.swift */; };
+		0B24235621FCC51400432B88 /* FlightTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24235421FCC51400432B88 /* FlightTrackerViewController.swift */; };
+		0B24235721FCC51400432B88 /* FlightTrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B24235521FCC51400432B88 /* FlightTrackerViewController.xib */; };
+		0B24235D21FCC58D00432B88 /* FlightTrackerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24235C21FCC58D00432B88 /* FlightTrackerPresenter.swift */; };
+		0B24235F21FCC59700432B88 /* FlightTrackerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24235E21FCC59700432B88 /* FlightTrackerInteractor.swift */; };
+		0B24236121FCC5A300432B88 /* FlightTrackerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24236021FCC5A300432B88 /* FlightTrackerRouter.swift */; };
+		0B24236421FCC64D00432B88 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24236321FCC64D00432B88 /* Reachability.swift */; };
+		0B24236621FCC66200432B88 /* CastUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24236521FCC66200432B88 /* CastUtility.swift */; };
+		0B24236821FCC67700432B88 /* ServiceConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24236721FCC67700432B88 /* ServiceConnectionHelper.swift */; };
+		0B24236A21FCC68A00432B88 /* HttpPetitionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24236921FCC68A00432B88 /* HttpPetitionMethod.swift */; };
+		0B24236C21FCC6A000432B88 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24236B21FCC6A000432B88 /* MainRouter.swift */; };
+		0B24236E21FCC6C300432B88 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24236D21FCC6C300432B88 /* NetworkConstants.swift */; };
+		0B24237121FCC6EA00432B88 /* FlightTrackerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24237021FCC6EA00432B88 /* FlightTrackerDataSource.swift */; };
+		0B24237521FCC80800432B88 /* StationNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24237421FCC80800432B88 /* StationNetworkModel.swift */; };
+		0B24237821FCC99600432B88 /* FlightsNetworkInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24237721FCC99600432B88 /* FlightsNetworkInput.swift */; };
+		0B24237A21FCC9B000432B88 /* FlightsNetworkOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24237921FCC9B000432B88 /* FlightsNetworkOutput.swift */; };
+		0B24238021FCCBF500432B88 /* SearchFileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24237F21FCCBF500432B88 /* SearchFileModel.swift */; };
+		0B24238221FCD7BC00432B88 /* FlightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24238121FCD7BC00432B88 /* FlightModel.swift */; };
+		0B24238421FCF3F700432B88 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24238321FCF3F700432B88 /* NetworkError.swift */; };
+		A0F892E82F34F4F00B9F94AD /* Pods_RAFlightTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCC5C11B99E6636EEC7372 /* Pods_RAFlightTracker.framework */; };
+		B845A359B05EA3B17317E683 /* Pods_RAFlightTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666A39D35259341B94DBAF0F /* Pods_RAFlightTrackerTests.framework */; };
+		EF328279454A8BCF5A6EAFD8 /* Pods_RAFlightTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114937A1B7C6EB13E3150FA9 /* Pods_RAFlightTrackerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +68,33 @@
 		0B24234121FCC4E500432B88 /* RAFlightTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAFlightTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B24234521FCC4E500432B88 /* RAFlightTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAFlightTrackerUITests.swift; sourceTree = "<group>"; };
 		0B24234721FCC4E500432B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B24235421FCC51400432B88 /* FlightTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrackerViewController.swift; sourceTree = "<group>"; };
+		0B24235521FCC51400432B88 /* FlightTrackerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightTrackerViewController.xib; sourceTree = "<group>"; };
+		0B24235C21FCC58D00432B88 /* FlightTrackerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrackerPresenter.swift; sourceTree = "<group>"; };
+		0B24235E21FCC59700432B88 /* FlightTrackerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrackerInteractor.swift; sourceTree = "<group>"; };
+		0B24236021FCC5A300432B88 /* FlightTrackerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrackerRouter.swift; sourceTree = "<group>"; };
+		0B24236321FCC64D00432B88 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		0B24236521FCC66200432B88 /* CastUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastUtility.swift; sourceTree = "<group>"; };
+		0B24236721FCC67700432B88 /* ServiceConnectionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConnectionHelper.swift; sourceTree = "<group>"; };
+		0B24236921FCC68A00432B88 /* HttpPetitionMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpPetitionMethod.swift; sourceTree = "<group>"; };
+		0B24236B21FCC6A000432B88 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		0B24236D21FCC6C300432B88 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		0B24237021FCC6EA00432B88 /* FlightTrackerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrackerDataSource.swift; sourceTree = "<group>"; };
+		0B24237421FCC80800432B88 /* StationNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationNetworkModel.swift; sourceTree = "<group>"; };
+		0B24237721FCC99600432B88 /* FlightsNetworkInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsNetworkInput.swift; sourceTree = "<group>"; };
+		0B24237921FCC9B000432B88 /* FlightsNetworkOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsNetworkOutput.swift; sourceTree = "<group>"; };
+		0B24237F21FCCBF500432B88 /* SearchFileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFileModel.swift; sourceTree = "<group>"; };
+		0B24238121FCD7BC00432B88 /* FlightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModel.swift; sourceTree = "<group>"; };
+		0B24238321FCF3F700432B88 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0FD54DFBCC9A5A06F784B0BD /* Pods-RAFlightTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAFlightTracker.release.xcconfig"; path = "Target Support Files/Pods-RAFlightTracker/Pods-RAFlightTracker.release.xcconfig"; sourceTree = "<group>"; };
+		114937A1B7C6EB13E3150FA9 /* Pods_RAFlightTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAFlightTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24542F840329CE3C2C365BAA /* Pods-RAFlightTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAFlightTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-RAFlightTrackerTests/Pods-RAFlightTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E5BC3DB357A2E33CC8229E1 /* Pods-RAFlightTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAFlightTracker.debug.xcconfig"; path = "Target Support Files/Pods-RAFlightTracker/Pods-RAFlightTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		395F665EF4A04367299BF91F /* Pods-RAFlightTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAFlightTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-RAFlightTrackerUITests/Pods-RAFlightTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		397E79B71193F26BB4A0DD61 /* Pods-RAFlightTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAFlightTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-RAFlightTrackerUITests/Pods-RAFlightTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FBC7ED663FE200CF1624ED2 /* Pods-RAFlightTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAFlightTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-RAFlightTrackerTests/Pods-RAFlightTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		666A39D35259341B94DBAF0F /* Pods_RAFlightTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAFlightTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BCC5C11B99E6636EEC7372 /* Pods_RAFlightTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAFlightTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F892E82F34F4F00B9F94AD /* Pods_RAFlightTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B845A359B05EA3B17317E683 /* Pods_RAFlightTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF328279454A8BCF5A6EAFD8 /* Pods_RAFlightTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +132,8 @@
 				0B24233921FCC4E500432B88 /* RAFlightTrackerTests */,
 				0B24234421FCC4E500432B88 /* RAFlightTrackerUITests */,
 				0B24232321FCC4E300432B88 /* Products */,
+				A71DC74D5347E7D7BD96D9A2 /* Pods */,
+				2DCD7491A84C87EE003FF5C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +150,8 @@
 		0B24232421FCC4E300432B88 /* RAFlightTracker */ = {
 			isa = PBXGroup;
 			children = (
+				0B24236221FCC62400432B88 /* Commons */,
+				0B24235321FCC4F200432B88 /* Module */,
 				0B24232521FCC4E300432B88 /* AppDelegate.swift */,
 				0B24232721FCC4E300432B88 /* ViewController.swift */,
 				0B24232921FCC4E300432B88 /* Main.storyboard */,
@@ -125,6 +180,133 @@
 			path = RAFlightTrackerUITests;
 			sourceTree = "<group>";
 		};
+		0B24235321FCC4F200432B88 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0B24235821FCC55C00432B88 /* View */,
+				0B24235A21FCC56600432B88 /* Interactor */,
+				0B24235921FCC55F00432B88 /* Presenter */,
+				0B24235B21FCC56E00432B88 /* Router */,
+				0B24236F21FCC6D600432B88 /* DataSource */,
+				0B24237221FCC6FF00432B88 /* DataModels */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0B24235821FCC55C00432B88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B24235421FCC51400432B88 /* FlightTrackerViewController.swift */,
+				0B24235521FCC51400432B88 /* FlightTrackerViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B24235921FCC55F00432B88 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0B24235C21FCC58D00432B88 /* FlightTrackerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0B24235A21FCC56600432B88 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0B24235E21FCC59700432B88 /* FlightTrackerInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0B24235B21FCC56E00432B88 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0B24236021FCC5A300432B88 /* FlightTrackerRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0B24236221FCC62400432B88 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				0B24236321FCC64D00432B88 /* Reachability.swift */,
+				0B24236521FCC66200432B88 /* CastUtility.swift */,
+				0B24236721FCC67700432B88 /* ServiceConnectionHelper.swift */,
+				0B24236921FCC68A00432B88 /* HttpPetitionMethod.swift */,
+				0B24236B21FCC6A000432B88 /* MainRouter.swift */,
+				0B24236D21FCC6C300432B88 /* NetworkConstants.swift */,
+				0B24238321FCF3F700432B88 /* NetworkError.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		0B24236F21FCC6D600432B88 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0B24237021FCC6EA00432B88 /* FlightTrackerDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		0B24237221FCC6FF00432B88 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				0B24237E21FCCBDB00432B88 /* SearchFlight */,
+				0B24237621FCC8E400432B88 /* Flights */,
+				0B24237321FCC7D800432B88 /* Stations */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		0B24237321FCC7D800432B88 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				0B24237421FCC80800432B88 /* StationNetworkModel.swift */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		0B24237621FCC8E400432B88 /* Flights */ = {
+			isa = PBXGroup;
+			children = (
+				0B24237721FCC99600432B88 /* FlightsNetworkInput.swift */,
+				0B24237921FCC9B000432B88 /* FlightsNetworkOutput.swift */,
+				0B24238121FCD7BC00432B88 /* FlightModel.swift */,
+			);
+			path = Flights;
+			sourceTree = "<group>";
+		};
+		0B24237E21FCCBDB00432B88 /* SearchFlight */ = {
+			isa = PBXGroup;
+			children = (
+				0B24237F21FCCBF500432B88 /* SearchFileModel.swift */,
+			);
+			path = SearchFlight;
+			sourceTree = "<group>";
+		};
+		2DCD7491A84C87EE003FF5C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81BCC5C11B99E6636EEC7372 /* Pods_RAFlightTracker.framework */,
+				666A39D35259341B94DBAF0F /* Pods_RAFlightTrackerTests.framework */,
+				114937A1B7C6EB13E3150FA9 /* Pods_RAFlightTrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A71DC74D5347E7D7BD96D9A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E5BC3DB357A2E33CC8229E1 /* Pods-RAFlightTracker.debug.xcconfig */,
+				0FD54DFBCC9A5A06F784B0BD /* Pods-RAFlightTracker.release.xcconfig */,
+				24542F840329CE3C2C365BAA /* Pods-RAFlightTrackerTests.debug.xcconfig */,
+				5FBC7ED663FE200CF1624ED2 /* Pods-RAFlightTrackerTests.release.xcconfig */,
+				395F665EF4A04367299BF91F /* Pods-RAFlightTrackerUITests.debug.xcconfig */,
+				397E79B71193F26BB4A0DD61 /* Pods-RAFlightTrackerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B24234A21FCC4E500432B88 /* Build configuration list for PBXNativeTarget "RAFlightTracker" */;
 			buildPhases = (
+				A292C8921182B1F7CC2EC8A3 /* [CP] Check Pods Manifest.lock */,
 				0B24231E21FCC4E300432B88 /* Sources */,
 				0B24231F21FCC4E300432B88 /* Frameworks */,
 				0B24232021FCC4E300432B88 /* Resources */,
+				1F9F7122CD5FC4327E00BC64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B24234D21FCC4E500432B88 /* Build configuration list for PBXNativeTarget "RAFlightTrackerTests" */;
 			buildPhases = (
+				19F3DF04424D83FAD9050FC8 /* [CP] Check Pods Manifest.lock */,
 				0B24233221FCC4E500432B88 /* Sources */,
 				0B24233321FCC4E500432B88 /* Frameworks */,
 				0B24233421FCC4E500432B88 /* Resources */,
@@ -167,6 +352,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B24235021FCC4E500432B88 /* Build configuration list for PBXNativeTarget "RAFlightTrackerUITests" */;
 			buildPhases = (
+				E6556AE71229DA390FA713D8 /* [CP] Check Pods Manifest.lock */,
 				0B24233D21FCC4E500432B88 /* Sources */,
 				0B24233E21FCC4E500432B88 /* Frameworks */,
 				0B24233F21FCC4E500432B88 /* Resources */,
@@ -230,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B24233021FCC4E500432B88 /* LaunchScreen.storyboard in Resources */,
+				0B24235721FCC51400432B88 /* FlightTrackerViewController.xib in Resources */,
 				0B24232D21FCC4E500432B88 /* Assets.xcassets in Resources */,
 				0B24232B21FCC4E300432B88 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +438,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19F3DF04424D83FAD9050FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAFlightTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F9F7122CD5FC4327E00BC64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RAFlightTracker/Pods-RAFlightTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RAFlightTracker/Pods-RAFlightTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A292C8921182B1F7CC2EC8A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAFlightTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6556AE71229DA390FA713D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAFlightTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B24231E21FCC4E300432B88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B24236E21FCC6C300432B88 /* NetworkConstants.swift in Sources */,
+				0B24237A21FCC9B000432B88 /* FlightsNetworkOutput.swift in Sources */,
+				0B24236421FCC64D00432B88 /* Reachability.swift in Sources */,
+				0B24238021FCCBF500432B88 /* SearchFileModel.swift in Sources */,
 				0B24232821FCC4E300432B88 /* ViewController.swift in Sources */,
+				0B24236121FCC5A300432B88 /* FlightTrackerRouter.swift in Sources */,
+				0B24236621FCC66200432B88 /* CastUtility.swift in Sources */,
+				0B24237521FCC80800432B88 /* StationNetworkModel.swift in Sources */,
+				0B24237121FCC6EA00432B88 /* FlightTrackerDataSource.swift in Sources */,
+				0B24235D21FCC58D00432B88 /* FlightTrackerPresenter.swift in Sources */,
+				0B24235F21FCC59700432B88 /* FlightTrackerInteractor.swift in Sources */,
+				0B24237821FCC99600432B88 /* FlightsNetworkInput.swift in Sources */,
+				0B24236A21FCC68A00432B88 /* HttpPetitionMethod.swift in Sources */,
+				0B24236821FCC67700432B88 /* ServiceConnectionHelper.swift in Sources */,
+				0B24235621FCC51400432B88 /* FlightTrackerViewController.swift in Sources */,
+				0B24238221FCD7BC00432B88 /* FlightModel.swift in Sources */,
+				0B24236C21FCC6A000432B88 /* MainRouter.swift in Sources */,
 				0B24232621FCC4E300432B88 /* AppDelegate.swift in Sources */,
+				0B24238421FCF3F700432B88 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +729,7 @@
 		};
 		0B24234B21FCC4E500432B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5BC3DB357A2E33CC8229E1 /* Pods-RAFlightTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +748,7 @@
 		};
 		0B24234C21FCC4E500432B88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD54DFBCC9A5A06F784B0BD /* Pods-RAFlightTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +767,7 @@
 		};
 		0B24234E21FCC4E500432B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24542F840329CE3C2C365BAA /* Pods-RAFlightTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +789,7 @@
 		};
 		0B24234F21FCC4E500432B88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBC7ED663FE200CF1624ED2 /* Pods-RAFlightTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +811,7 @@
 		};
 		0B24235121FCC4E500432B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395F665EF4A04367299BF91F /* Pods-RAFlightTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +832,7 @@
 		};
 		0B24235221FCC4E500432B88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397E79B71193F26BB4A0DD61 /* Pods-RAFlightTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
